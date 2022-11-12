@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.name:hover {
+    box-shadow: 0 5px 50px 0 #4dba87;
+}
+
+.links li {
+    font-size: 16px;
+}
+
+.header {
+    background-color: #2D2E32;
+}
+
+
+.white {
+    color: #FFFFFF;
+}
+
+.gray {
+    color: #777777;
+}
+
+.green {
+    color: #4dba87;
+}
+
+
+
+section {
+    padding: 5rem 5rem;
+}
+
+button {
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    color: #2D2E32;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #4dba87;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #2D2E32;
+
+    padding: 1.1rem 5rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 5rem 0rem 5rem;
+
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.header p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.header button {
+    cursor: text;
+    margin-bottom: 1.5rem;
+}
+
+.header a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.image {
+    width: 513px;
+    height: 465px;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        row-gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        padding: 1rem 2rem;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
+
+    nav ul,
+    nav ul li,
+    .active {
+        display: none;
+    }
+
+    .header {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+
+
+}

@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+
+.mycard {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(37, 35, 35);
+}
+
+
+.cards {
+    margin-top: 2px;
+
+}
+
+.box {
+
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 1rem;
+    /* padding: 2rem; */
+    margin-bottom: 1rem;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #2d2e32;
+    text-transform: capitalize;
+}
+
+.color {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #4dba87;
+}
+
+.color i {
+    margin: 1rem;
+
+}
+
+span {
+    color: #4dba87;
+}
+
+
+.para {
+    color: rgb(159, 155, 155);
+}
+
+.paras {
+    margin-top: 2rem;
+    padding-left: 10px;
+    background-color: rgb(37, 35, 35);
+    color: rgb(159, 155, 155);
+
+}
+
+.gray {
+    color: #777;
+}
+
+.white {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+.white h3 {
+    font-weight: 500;
+    text-align: justify;
+
+}
+
+.intro {
+    font-size: 1rem;
+    color: #777
+}
+
+.secondPara {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+@media (max-width: 800px) {
+    .mycard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards .box {
+        display: flex;
+        flex-direction: column;
+        width: 345px;
+    }
+
+    .paras {
+        width: 345px;
+    }
+}
+
+@media (max-width: 345px) {
+    .mycard {
+        display: flex;
+        flex-direction: column;
+    }
+}
